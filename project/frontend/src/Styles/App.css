@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 700px;
+}
+
+.frame {
+    font-family: "Tahoma";
+    font-size: 16px;
+    display: flex;
+    padding: 15px;
+    border: 5px solid darkslategray;
+    margin-top: 15px;
+    background-color: #5f9ea07a;
+    justify-content: center;
+}
+
+.h1 {
+    font-family: "Century Gothic";
+    font-size: 50px;
+    color: cadetblue;
+}
+
+.b {
+    font-family: "Tahoma";
+    font-size: 16px;
+}
+
+.d {
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.content {
+    font-family: "Tahoma";
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+}
